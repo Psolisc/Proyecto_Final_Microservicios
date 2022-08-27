@@ -37,6 +37,7 @@ pipeline {
         stage('Quality Gate Validation') {
             steps {
                 //waitForQualityGate abortPipeline: true
+              echo "Quality Gate Validation"
             }
         }
 
